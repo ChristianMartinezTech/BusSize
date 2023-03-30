@@ -17,19 +17,19 @@ public class BusSize {
         ArrayList<Integer> responseArrList = new ArrayList<>();
 
 
-        for (Integer group : groups) { // Finding highestValue and passengerTotal
-            if (group > highestValue) {
-                highestValue = group;
+        for (int i = 0; i < groups.length; i++) { // Finding highestValue and passengerTotal
+            if (groups[i] > highestValue) {
+                highestValue = groups[i];
             }
-            passengerTotal += group;
+            passengerTotal += groups[i];
         }
 
         noSeats = highestValue; // noSeats will go from the biggest group to half the total of passengers
 
         while (noSeats <= (passengerTotal / 2)) {
-            for (Integer group : groups) {
-                if (group < noSeats) {
-                    temp += group;
+            for (int j = 0; j < groups.length; j++) {
+                if (groups[j] <= noSeats) {
+                    temp += groups[j];
                 }
                 if (temp == noSeats) {
                     temp = 0;
