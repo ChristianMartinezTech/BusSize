@@ -1,9 +1,7 @@
-package org.example;
+package app;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.util.ArrayList;
 
 public class BusSizeTest extends BusSize {
     @Test
