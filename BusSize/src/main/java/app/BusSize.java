@@ -1,4 +1,4 @@
-package app.bussize;
+package app;
 
 import java.util.Arrays;
 

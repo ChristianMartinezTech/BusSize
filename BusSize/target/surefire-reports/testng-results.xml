@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-30T18:57:56 COT" name="Surefire suite" finished-at="2023-03-30T18:57:56 COT" duration-ms="75">
+  <suite started-at="2023-03-30T22:24:22 COT" name="Surefire suite" finished-at="2023-03-30T22:24:22 COT" duration-ms="113">
     <groups>
     </groups>
-    <test started-at="2023-03-30T18:57:56 COT" name="Surefire test" finished-at="2023-03-30T18:57:56 COT" duration-ms="75">
-      <class name="org.example.BusSizeTest">
-        <test-method signature="testOutputFive()[pri:0, instance:org.example.BusSizeTest@623a8092]" started-at="2023-03-30T18:57:56 COT" name="testOutputFive" finished-at="2023-03-30T18:57:56 COT" duration-ms="26" status="PASS">
+    <test started-at="2023-03-30T22:24:22 COT" name="Surefire test" finished-at="2023-03-30T22:24:22 COT" duration-ms="113">
+      <class name="app.BusSizeTest">
+        <test-method signature="testOutputFive()[pri:0, instance:app.BusSizeTest@21b2e768]" started-at="2023-03-30T22:24:22 COT" name="testOutputFive" finished-at="2023-03-30T22:24:22 COT" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOutputFive -->
-        <test-method signature="testOutputFour()[pri:0, instance:org.example.BusSizeTest@623a8092]" started-at="2023-03-30T18:57:56 COT" name="testOutputFour" finished-at="2023-03-30T18:57:56 COT" duration-ms="1" status="PASS">
+        <test-method signature="testOutputFour()[pri:0, instance:app.BusSizeTest@21b2e768]" started-at="2023-03-30T22:24:22 COT" name="testOutputFour" finished-at="2023-03-30T22:24:22 COT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOutputFour -->
-        <test-method signature="testOutputOne()[pri:0, instance:org.example.BusSizeTest@623a8092]" started-at="2023-03-30T18:57:56 COT" name="testOutputOne" finished-at="2023-03-30T18:57:56 COT" duration-ms="1" status="PASS">
+        <test-method signature="testOutputOne()[pri:0, instance:app.BusSizeTest@21b2e768]" started-at="2023-03-30T22:24:22 COT" name="testOutputOne" finished-at="2023-03-30T22:24:22 COT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOutputOne -->
-        <test-method signature="testOutputSix()[pri:0, instance:org.example.BusSizeTest@623a8092]" started-at="2023-03-30T18:57:56 COT" name="testOutputSix" finished-at="2023-03-30T18:57:56 COT" duration-ms="1" status="PASS">
+        <test-method signature="testOutputSix()[pri:0, instance:app.BusSizeTest@21b2e768]" started-at="2023-03-30T22:24:22 COT" name="testOutputSix" finished-at="2023-03-30T22:24:22 COT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOutputSix -->
-        <test-method signature="testOutputThree()[pri:0, instance:org.example.BusSizeTest@623a8092]" started-at="2023-03-30T18:57:56 COT" name="testOutputThree" finished-at="2023-03-30T18:57:56 COT" duration-ms="0" status="PASS">
+        <test-method signature="testOutputThree()[pri:0, instance:app.BusSizeTest@21b2e768]" started-at="2023-03-30T22:24:22 COT" name="testOutputThree" finished-at="2023-03-30T22:24:22 COT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOutputThree -->
-        <test-method signature="testOutputTwo()[pri:0, instance:org.example.BusSizeTest@623a8092]" started-at="2023-03-30T18:57:56 COT" name="testOutputTwo" finished-at="2023-03-30T18:57:56 COT" duration-ms="0" status="PASS">
+        <test-method signature="testOutputTwo()[pri:0, instance:app.BusSizeTest@21b2e768]" started-at="2023-03-30T22:24:22 COT" name="testOutputTwo" finished-at="2023-03-30T22:24:22 COT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOutputTwo -->
-      </class> <!-- org.example.BusSizeTest -->
+      </class> <!-- app.BusSizeTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

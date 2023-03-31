@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.BusSizeTest" time="0.621" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="app.BusSizeTest" time="0.823" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\crism\OneDrive\Escritorio\BusSize\BusSize\target\test-classes;C:\Users\crism\OneDrive\Escritorio\BusSize\BusSize\target\classes;C:\Users\crism\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\crism\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\crism\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\crism\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\crism\OneDrive\Escritorio\BusSize\BusSize\target\test-classes;C:\Users\crism\OneDrive\Escritorio\BusSize\BusSize\target\classes;C:\Users\crism\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\crism\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\crism\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\crism\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\crism\.m2\repository\com\amazonaws\aws-lambda-java-core\1.2.2\aws-lambda-java-core-1.2.2.jar;C:\Users\crism\.m2\repository\com\amazonaws\aws-lambda-java-events\3.11.1\aws-lambda-java-events-3.11.1.jar;C:\Users\crism\.m2\repository\joda-time\joda-time\2.10.8\joda-time-2.10.8.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\crism\AppData\Local\Temp\surefire15735028827133216814\surefirebooter-20230330185756008_3.jar C:\Users\crism\AppData\Local\Temp\surefire15735028827133216814 2023-03-30T18-57-55_716-jvmRun1 surefire-20230330185756008_1tmp surefire_0-20230330185756008_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\crism\AppData\Local\Temp\surefire13428643646347274163\surefirebooter-20230330222421632_3.jar C:\Users\crism\AppData\Local\Temp\surefire13428643646347274163 2023-03-30T22-24-21_296-jvmRun1 surefire-20230330222421632_1tmp surefire_0-20230330222421632_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\crism\OneDrive\Escritorio\BusSize\BusSize\target\test-classes;C:\Users\crism\OneDrive\Escritorio\BusSize\BusSize\target\classes;C:\Users\crism\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\crism\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\crism\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\crism\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\crism\OneDrive\Escritorio\BusSize\BusSize\target\test-classes;C:\Users\crism\OneDrive\Escritorio\BusSize\BusSize\target\classes;C:\Users\crism\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\crism\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\crism\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\crism\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\crism\.m2\repository\com\amazonaws\aws-lambda-java-core\1.2.2\aws-lambda-java-core-1.2.2.jar;C:\Users\crism\.m2\repository\com\amazonaws\aws-lambda-java-events\3.11.1\aws-lambda-java-events-3.11.1.jar;C:\Users\crism\.m2\repository\joda-time\joda-time\2.10.8\joda-time-2.10.8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\crism"/>
     <property name="user.language" value="es"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\crism\AppData\Local\Temp\surefire15735028827133216814\surefirebooter-20230330185756008_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\crism\AppData\Local\Temp\surefire13428643646347274163\surefirebooter-20230330222421632_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
@@ -60,38 +60,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testOutputFive" classname="org.example.BusSizeTest" time="0.031">
-    <system-out><![CDATA[Total Passengers: 12
-Highest Value: 3
-]]></system-out>
+  <testcase name="testOutputFive" classname="app.BusSizeTest" time="0.03">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testOutputFour" classname="org.example.BusSizeTest" time="0.005">
-    <system-out><![CDATA[Total Passengers: 9
-Highest Value: 3
-]]></system-out>
-  </testcase>
-  <testcase name="testOutputOne" classname="org.example.BusSizeTest" time="0.002">
-    <system-out><![CDATA[Total Passengers: 12
-Highest Value: 3
-]]></system-out>
-  </testcase>
-  <testcase name="testOutputSix" classname="org.example.BusSizeTest" time="0.002">
-    <system-out><![CDATA[Total Passengers: 20
-Highest Value: 4
-]]></system-out>
-  </testcase>
-  <testcase name="testOutputThree" classname="org.example.BusSizeTest" time="0.002">
-    <system-out><![CDATA[Total Passengers: 6
-Highest Value: 2
-]]></system-out>
-  </testcase>
-  <testcase name="testOutputTwo" classname="org.example.BusSizeTest" time="0.002">
-    <system-out><![CDATA[Total Passengers: 6
-Highest Value: 2
-]]></system-out>
-  </testcase>
+  <testcase name="testOutputFour" classname="app.BusSizeTest" time="0"/>
+  <testcase name="testOutputOne" classname="app.BusSizeTest" time="0"/>
+  <testcase name="testOutputSix" classname="app.BusSizeTest" time="0.003"/>
+  <testcase name="testOutputThree" classname="app.BusSizeTest" time="0.002"/>
+  <testcase name="testOutputTwo" classname="app.BusSizeTest" time="0.001"/>
 </testsuite>
