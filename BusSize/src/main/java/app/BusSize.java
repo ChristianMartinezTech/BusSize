@@ -1,14 +1,17 @@
-package org.example;
-import java.util.ArrayList;
+package app.bussize;
+
 import java.util.Arrays;
 
+/***
+ * BusSize Class that stores the method to find the possible seat combinations
+ */
 public class BusSize {
     /***
      * Method that will find all the possible ordered seat combinations
      * @param groups integer[] containing the groups
      * @return integer[] containing the possible ordered seat combinations
      */
-    public String findChairSize(String groups) {
+    public static String findChairSize(String groups) {
         int highestValue = 0;
         int passengerTotal = 0;
         int temp = 0;
